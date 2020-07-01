@@ -24,7 +24,7 @@ html, body, .roam-app {
 
 h1, h2, h3,  h4, h5, h6, h1 > a, h2 > a, h3 > a, h4 > a, .rm-title-textarea {
     font-family: var(--header-font) !important;
-    color: var(--text-color) !important;
+    color: var(--text-color);
 }
 
 h1.level2, h1.level2 > a, h2.level2 > a {
@@ -52,7 +52,7 @@ h1.rm-title-display, .rm-title-textarea {
 div,
 textarea, a {
     font-family: var(--body-font) !important;
-    color: var(--text-color) !important;
+    color: var(--text-color);
 }
 .bp3-popover {
     color: var(--color-secondary-contrast) !important;
